@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.banner{
+    margin: 50px 100px;
+    width: 1320px;
+    height: 600px;
+    position: relative;
+}
+.banner img{
+  filter: brightness(50%);
+}
+.banner-heading{
+position: absolute;
+top: 30%;
+left:30%;
+text-align: center;
+
+}
+.banner-heading p{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.banner-heading h1{
+
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 16px;
+}
