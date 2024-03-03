@@ -118,7 +118,8 @@ body {
     color: #c5c5c5;
     font-family: "Inter", sans-serif;
 }
-.party-text img{
+
+.party-text img {
     background-color: none;
     position: absolute;
     bottom: -26%;
@@ -126,6 +127,7 @@ body {
     filter: brightness(90%);
 
 }
+
 .party-text button {
     background-color: transparent;
     text-transform: uppercase;
@@ -208,7 +210,8 @@ body {
 }
 
 .upcoming-event-section .function .title,
-.portfolio-introduction .title ,.holiday-offer-detail .title {
+.portfolio-introduction .title,
+.holiday-offer-detail .title {
     color: #FF0000;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -227,8 +230,8 @@ body {
 .upcoming-event-section .function p,
 .events p,
 .portfolio-introduction p,
-.contact-details p ,.holiday-offer-detail p
-  {
+.contact-details p,
+.holiday-offer-detail p {
     color: #807f80;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -275,59 +278,67 @@ body {
     margin-top: 16px;
 
 }
-.holiday-section{
+
+.holiday-section {
     width: 1320px;
     height: 986.07px;
     margin: 70px 100px;
     text-align: center;
     position: relative;
 }
-.holiday-offer-detail .title{
-   color: #070211;
-}
-.holiday-offer-detail h1{
-   color: #070211;
-   font-size: 72px;
-   font-weight: bold;
-   margin-top: 16px;
+
+.holiday-offer-detail .title {
+    color: #070211;
 }
 
-.holiday{
+.holiday-offer-detail h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.holiday {
     color: #FF0000;
     font-weight: bold;
 }
-.discount-image{
+
+.discount-image {
     margin-top: 5%;
 }
-.discount-image .img-1{
-    position: absolute;
-   right: 0;
-   top: 33%;
-   width: 429px;
-   height: 433px;
 
-    
-}
-.discount-image .img-2{
+.discount-image .img-1 {
     position: absolute;
-   right: 20%;
-   top: 40%;
-   width: 220.0.5px;
-   height: 220.0.5px;
+    right: 0;
+    top: 33%;
+    width: 429px;
+    height: 433px;
+
+
 }
-.discount-image .img-3{
+
+.discount-image .img-2 {
     position: absolute;
-  left: 10%;
-   top: 35%;
-   width: 674.82px;
-   height: 577.96px;
-   z-index: 1000;
-    
+    right: 20%;
+    top: 40%;
+    width: 220.0.5px;
+    height: 220.0.5px;
 }
-.discount-image .img-4{
+
+.discount-image .img-3 {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: 674.82px;
+    height: 577.96px;
+    z-index: 1000;
+
+}
+
+.discount-image .img-4 {
     position: absolute;
     left: 0;
-   bottom: 0;
+    bottom: 0;
     height: 229px;
 }
 
