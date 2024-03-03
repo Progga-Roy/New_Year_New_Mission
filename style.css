@@ -200,13 +200,13 @@ body {
     margin-top: 50px;
 }
 
-.upcoming-event-section .function .title {
+.upcoming-event-section .function .title,.portfolio-introduction .title {
     color: #FF0000;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
 }
 
-.upcoming-event-section .function .tag {
+.upcoming-event-section .function .tag,.portfolio-introduction .tag {
     color: #070211;
     font-family: "Merriweather", serif;
     font-size: 48px;
@@ -214,7 +214,7 @@ body {
     font-weight: bold;
 }
 
-.upcoming-event-section .function p ,.events p {
+.upcoming-event-section .function p ,.events p ,.portfolio-introduction p{
     color: #807f80;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -258,4 +258,26 @@ body {
  height: 140px;
 margin-top: 16px;
   
+}
+.portfolio-introduction{
+    width: 1320px;
+    margin:70px 100px;
+}
+.portfolio-introduction .p{
+   width: 896px;
+}
+.all-portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.all-portfolio img{
+   width: 424px;
+   height: 450px;
+  
+}
+.all-portfolio img:hover{
+ border: 2px solid #FF0000;
+ border-radius: 17px;
 }
