@@ -29,6 +29,7 @@ body {
     position: absolute;
     top: 30%;
     left: 30%;
+
     text-align: center;
 
 }
@@ -131,41 +132,47 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
-.party-venue-section{
-      position: relative;
+
+.party-venue-section {
+    position: relative;
 }
-.party-venue{
-    /* position: relative; */
+
+.party-venue {
+
     margin: 70px 100px;
     width: 1320px;
     height: 482px;
-    background-color:#fddede;
-    background-image: linear-gradient( #f9dede,#ffffff);
+    background-color: #fddede;
+    background-image: linear-gradient(#f9dede, #ffffff);
     border-radius: 16px;
 
 }
-.party-venue .location-of-venue{
-     position: absolute;
-    top: 30%;
-    left: 35%; 
+
+.party-venue .location-of-venue {
+    position: absolute;
+    top: 20%;
+    left: 35%;
     text-align: justify;
 }
-.party-venue .location-of-venue h3{
+
+.party-venue .location-of-venue h3 {
     font-size: 32px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #070211;
-   text-align: center;
-   line-height: 56px;
+    text-align: center;
+    line-height: 56px;
 }
-.party-venue .location-of-venue .location{
+
+.party-venue .location-of-venue .location {
     color: #FF0000;
-  
+
 }
-.party-venue  button{
+
+.party-venue button {
     position: absolute;
-    top: 75%;
-    left: 47%; 
+    top: 65%;
+    left: 47%;
     width: 167px;
     height: 56px;
     background-color: #FF0000;
@@ -177,6 +184,78 @@ body {
     border-radius: 8px;
     border: none;
     outline: 0;
+
+
+}
+
+.upcoming-event-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1320px;
+    margin: 70px auto;
+}
+
+.function {
+    width: 393px;
+    margin-top: 50px;
+}
+
+.upcoming-event-section .function .title {
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.upcoming-event-section .function .tag {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.upcoming-event-section .function p ,.events p {
+    color: #807f80;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 32px;
+
+}
+
+.function-img {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color:transparent;
+    border:10px solid #FF0000 ;
+    border-radius: 50%;
+}
+
+.function-img img {
     
-   
+    width: 364.84px;
+    height: 364.84px;
+    padding:15px;
+    margin-top: 7px;
+   text-align: center;
+}
+.events{
+    margin-top: 50px;
+    width: 393px;
+   margin-left: 30px;
+}
+.events h1{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    /* margin-top: 16px; */
+    font-weight: bold;
+}
+
+.events img{
+ width: 140px;
+ height: 140px;
+margin-top: 16px;
+  
 }
