@@ -1,72 +1,182 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 
- 
+
 }
-body{
+
+body {
     background-color: white;
 }
+
 /* Banner section start */
-.banner{
+.banner {
     margin: 50px 100px;
     width: 1320px;
     height: 600px;
     position: relative;
 }
-.banner img{
-  filter: brightness(50%);
+
+.banner img {
+    filter: brightness(50%);
 }
-.banner-heading{
-position: absolute;
-top: 30%;
-left:30%;
-text-align: center;
+
+.banner-heading {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
 
 }
-.banner-heading p{
+
+.banner-heading p {
     font-size: 32px;
     color: #FFFFFF;
 }
-.banner-heading h1{
+
+.banner-heading h1 {
 
     font-size: 72px;
     color: #FFFFFF;
     font-weight: bold;
     margin-top: 16px;
 }
+
 /* Banner section end */
 
-.offer-section{
+.offer-section {
     margin-top: 100px;
     text-align: center;
 }
-.offer h1{
+
+.offer h1 {
     font-size: 88px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #FF0000;
-   
-}
-.offer p{
+    line-height: 88px;
 
-margin-top: 30px;
-font-size: 24px;
-color: #FF0000;
-font-family: "Inter", sans-serif;
-   
 }
-.offer h3{
+
+.offer p {
+
+    margin-top: 30px;
+    font-size: 24px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+
+}
+
+.offer h3 {
     margin-top: 16px;
     font-size: 48px;
-    color:#070211;
+    color: #070211;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    }
-    .offer-img img{
-       margin-top: 50px;
-    }
+}
+
+.offer-img img {
+    margin-top: 50px;
+}
+
+.party-section {
+    margin: 70px 100px;
+}
+
+.mid-night {
+    position: relative;
+}
+
+.mid-night img {
+    filter: brightness(50%);
+}
+
+.party-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.party-text h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 11%;
+    line-height: 88px;
+}
+
+.party-text p {
+    width: 697px;
+    /* height: 60px; */
+    font-size: 18px;
+    margin-top: 30px;
+    color: #c5c5c5;
+    font-family: "Inter", sans-serif;
+}
+
+.party-text button {
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.party-venue-section{
+      position: relative;
+}
+.party-venue{
+    /* position: relative; */
+    margin: 70px 100px;
+    width: 1320px;
+    height: 482px;
+    background-color:#fddede;
+    background-image: linear-gradient( #f9dede,#ffffff);
+    border-radius: 16px;
+
+}
+.party-venue .location-of-venue{
+     position: absolute;
+    top: 30%;
+    left: 35%; 
+    text-align: justify;
+}
+.party-venue .location-of-venue h3{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #070211;
+   text-align: center;
+   line-height: 56px;
+}
+.party-venue .location-of-venue .location{
+    color: #FF0000;
+  
+}
+.party-venue  button{
+    position: absolute;
+    top: 75%;
+    left: 47%; 
+    width: 167px;
+    height: 56px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    outline: 0;
+    
+   
+}
