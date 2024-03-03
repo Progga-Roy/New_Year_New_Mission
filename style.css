@@ -206,7 +206,7 @@ body {
     font-size: 24px;
 }
 
-.upcoming-event-section .function .tag,.portfolio-introduction .tag {
+.upcoming-event-section .function .tag,.portfolio-introduction .tag,.contact-details h1  {
     color: #070211;
     font-family: "Merriweather", serif;
     font-size: 48px;
@@ -214,7 +214,7 @@ body {
     font-weight: bold;
 }
 
-.upcoming-event-section .function p ,.events p ,.portfolio-introduction p{
+.upcoming-event-section .function p ,.events p ,.portfolio-introduction p ,.contact-details p{
     color: #807f80;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -281,3 +281,113 @@ margin-top: 16px;
  border: 2px solid #FF0000;
  border-radius: 17px;
 }
+.contact-section{
+position: relative;
+margin: 70px 100px;
+
+}
+.contact{
+
+    width:1320px;
+    height: 616px;
+    border-radius: 8px;
+
+    text-align: center;
+    background-color:#fde9e9;
+}
+.contact-details{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+
+}
+.contact-details p{
+   width: 896px;
+
+}
+.inputs{
+    position: relative;
+    
+}
+.contact-details input{
+   width: 438px;
+   height: 72px;
+   border-radius:  50px 0 0 50px;
+   margin-top: 5%;
+   border: 0;
+   outline: 0;
+   font-size: 18px;
+   padding: 0 20px;
+   font-family: 'Inter', sans-serif;
+}
+.contact-details button{
+    position: relative;
+    right: 3px;
+   width: 210px;
+   height: 72px;
+   color: #ffffff;
+   background-color: #FF0000;
+  border-radius: 0 50px 50px 0;
+  margin-right: 15px;
+  margin-top: 5%;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 606px;
+    background-color: #070211;
+    
+}
+footer .footer-address{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+   
+   
+}
+.left-side-address p{
+    line-height: 40px;
+    margin: 100px 0px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.mobile-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: medium;
+}
+.hr1{
+  width: 1320px;
+  margin:-20px 100px ;
+}
+.social-media{
+    margin-top: 70px;
+    text-align: center;
+     column-gap: 20px;
+}
+.hr2{
+    width: 1320px;
+    margin:45px 100px ;
+  }
+  .copy-right{
+    margin:70px 100px ;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+  }
+  .copy-right p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+  }
